@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Cairo:wght@300&family=Mukta:wght@200&family=Rajdhani:wght@300&family=Source+Sans+Pro:wght@200&display=swap");
+
+body {
+  background: linear-gradient(to right, #2ecc71, #3498db);
+  font-family: "Baloo 2", cursive;
+  font-family: "Cairo", sans-serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+#outputScreen{
+    width: 300px;
+    height: 70px;
+    border: 2px solid chartreuse;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 2em;
+}
+.btn{
+    margin: 5px;
+}
